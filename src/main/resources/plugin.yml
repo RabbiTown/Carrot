@@ -1,0 +1,6 @@
+name: Carrot
+version: ${version}
+api-version: 1.14
+main: rabbitown.carrot.CarrotPlugin
+
+author: Milkory
