@@ -9,6 +9,6 @@ package rabbitown.carrot.module.scheduler.event;
 public interface Event {
 
     /** @return To keep the event in tick or not */
-    boolean run();
+    boolean tick();
 
 }

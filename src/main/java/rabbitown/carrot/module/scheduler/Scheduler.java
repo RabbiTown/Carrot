@@ -17,7 +17,7 @@ public class Scheduler {
 
     private final BukkitRunnable ticker = new BukkitRunnable() {
         @Override public void run() {
-            events.removeIf(it -> !it.run());
+            events.removeIf(it -> !it.tick());
         }
     };
 

@@ -10,8 +10,8 @@ public class GameEvent implements Event {
 
     private final Event event;
 
-    @Override public boolean run() {
-        return event.run();
+    @Override public boolean tick() {
+        return event.tick();
     }
 
 }
