@@ -23,6 +23,7 @@ public abstract class Watcher<T> {
         var newValue = supplier.get();
         if (newValue != oldValue) {
             trigger(oldValue);
+            oldValue = newValue;
         }
     }
 
